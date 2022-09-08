@@ -1,0 +1,11 @@
+Website Folder	->	Home.html
+
+					Stylesheet.css
+
+					Subsites	->	Canvas.html
+									EduArte.html
+									Opleidingswijzer.html
+									Locatiegids.html
+									Begeleiding.html
+									Examenplan.html
+									Achtergrond-info.html

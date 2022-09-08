@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    display: table-cell;
+    width: 100vw;
+    height: 95vh;
+    vertical-align: middle;
+}
+
+.uwu {
+    position: fixed;
+}
+
+.scnd {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: yellow;
+}
+
+p {
+    text-align: center;
+
+    color: rgb(255, 0, 255);
+    font-size: 5em;
+    font-family: 'Roboto Condensed';
+}
+
+#para1 {
+    animation-name: woof;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#para2 {
+    color: black;
+}
+
+@keyframes woof {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.images {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 60vh;
+    width: 90vh;
+}
+
+#link {
+    text-align: center;
+
+    color: black;
+    font-size: 2em;
+    font-family: 'Roboto Condensed';
+
+    position: relative;
+    left: 48%;
+
+    text-decoration: none;
+}
+
+#link:hover {
+    color: red;
+}
+
+#pancake {
+    font-size: 1em;
+    color: black;
+}
+#para3 {
+    color: black;
+    font-size: 1em;
+
+    position: absolute;
+    bottom: -2em;
+    text-align: left;
+}

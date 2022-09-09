@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  background-color: black;
+
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+#title-header {
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  position: relative;
+  
+  bottom: 40vh;
+  z-index: 1;
+  font-size: 8vh;
+  
+  color: white;
+}
+
+main {
+  /* border: 5px solid white; */
+
+  position: relative;
+  bottom: 15em;
+}
+
+main h1, main p {
+  /* border: 5px solid yellow; */
+
+  color: white;
+}
+
+main h1 {
+  font-size: 5rem;
+
+  text-align: center;
+}
+
+main img {
+  /* border: 5px solid hotpink; */
+
+  height: 50%;
+  width: 50%;
+
+  margin: 25px;
+}
+
+main section {
+  /* border: 5px solid red; */
+
+  height: 85vh;
+
+  scroll-margin-top: 14.5vh;
+}
+
+main p {
+  width: 40vw;
+  height: 70%;
+
+  font-size: 2.5rem;
+
+  top: 60px;
+}
+
+section p {
+  position: relative;
+
+  top: 3.5em;
+
+  margin: 25px;
+}
+
+footer {
+  background-color: #00a7c7;
+
+  padding: 2vw;
+}
+
+footer h1 {
+  text-align: center;
+
+  color: white;
+}
+
+#p-right {
+  float: right;
+}
+
+#img-right {
+  float: right;
+}
+
+#img-left {
+  float: left;
+}
+
+.javascript img {
+  height: 70%;
+  width: 35%;
+
+  position: relative;
+
+  top: 5em;
+}
+
+.sql img {
+  position: relative;
+
+  top: 12em;
+}
+
+.php img {
+  position: relative;
+
+  top: 15em;
+}
+
+
+.htmlcss img {
+  position: relative;
+
+  top: 10em;
+
+  width: 40%;
+}

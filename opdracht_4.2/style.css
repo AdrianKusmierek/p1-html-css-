@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: Teal;
+    font-weight: bold;
+}
+
+p {
+    color: #4d4d4d;
+}
+
+.eerste-paraaf {
+    font-weight: bold;
+
+    color: yellow;
+}
+
+a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+header {
+    width: 99vw;
+    height: 33vh;
+
+    margin: 0;
+
+    background-image: url("./img/kill\ me\ uwu.jpg");
+}
+
+img {
+    width: 50vw;
+}
+
+article {
+    border: .3vh solid hotpink;
+    border-left: 1vh solid hotpink;
+    border-radius: 2vh;
+}

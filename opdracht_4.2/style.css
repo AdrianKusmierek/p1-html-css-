@@ -45,6 +45,7 @@ header {
     margin: 0;
 
     background-image: url("./img/kill\ me\ uwu.jpg");
+    background-size: cover;
 }
 
 img {

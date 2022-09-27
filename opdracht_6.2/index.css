@@ -1,0 +1,28 @@
+div {
+    width: 1200px;
+    display: flex;
+
+    justify-content: space-between;
+    flex-flow: row-reverse nowrap;
+}
+
+.blk1, .blk2, .blk3, .blk4 {
+    width: 200px;
+    height: 200px;
+}
+
+.blk1 {
+    background-color: blue;
+}
+
+.blk2 {
+    background-color: black;
+}
+
+.blk3 {
+    background-color: red;
+}
+
+.blk4 {
+    background-color: green;
+}

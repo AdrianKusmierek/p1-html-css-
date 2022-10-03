@@ -220,11 +220,13 @@ nav ul {
 }
 
 .jaar2:hover + .dropdown {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown:hover {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown h1 {

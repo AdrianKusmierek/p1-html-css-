@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins";
+
+    text-decoration: none;
+    color: white;
+
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+
+    background-color: #131c27;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+}
+
+nav ul {
+    width: 45vw;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style: none;
+    font-size: 2.5vh;
+}
+
+.navbar-title {
+    width: 33vw;
+    margin: 5vw;
+
+    font-family: "Pattaya";
+    font-size: 3.5vh;
+    font-weight: lighter;
+}
+
+.landing-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Images/landing-page.jpg");
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page h1 {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.landing-page h2 {
+    font-size: 3.5vh;
+}
+
+.landing-page button {
+    background-color: #4c6e97;
+
+    width: 10vw;
+    height: 7vh;
+
+    font-size: 2.2vh;
+
+    border: 0;
+}
+
+.landing-page button:hover {
+    cursor: pointer;
+}
+
+.lp {
+    height: 40vh;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    top: 4vh;
+}
+
+.nyc-page img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.nyc-page {
+    width: 100vw;
+    height: 210vh;
+
+    position: absolute;
+    top: 100vh;
+
+    z-index: -1;
+
+    background: url("./Images/new-york-page.png"), linear-gradient(rgb(128, 128, 128), rgb(238, 238, 238));
+    background-size: 100vw 145vh;
+    background-repeat: no-repeat;
+    background-position: 0 -20vh;
+
+    font-size: 2vh;
+}
+
+.nyc {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    left: 5vw;
+}
+
+.nyc h1 {
+    font-size: 7vh;
+    border-bottom: 1vh solid white;
+
+    width: 28vw;
+}
+
+.nyc h2 {
+    font-weight: lighter;
+    font-size: 4vh;
+
+    position: relative;
+    top: 5vh;
+}
+
+.travel .upper {
+    background-color: #131c27;
+
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.travel .upper h1 {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.travel .upper h2 {
+    font-size: 4.5vh;
+    font-weight: lighter;
+}
+
+.travel .lower {
+    width: 100vw;
+    height: 80vh;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.one, .two, .three {
+    width: 23vw;
+    height: 55vh;
+
+    background-color: white;
+    box-shadow: 0 10px 20px #909090;
+}
+
+.lower .main {
+    height: 37vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.travel .lower h1, .travel .lower p {
+    color: #131c27; 
+}
+
+.lower h1 {
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.lower p {
+    font-size: 2.5vh;
+}
+
+.images {
+    background-color: #131c27;
+
+    width: 23vw;
+    height: 12vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower img {
+    width: 18vw;
+    height: 6vh;
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+
+    z-index: -1;
+
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url("./Images/contact-mountain.png"), linear-gradient(rgb(128, 128, 128), rgb(238, 238, 238));
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+    top: 310vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm {
+    background-color: rgba(19, 28, 39, .8);
+
+    width: 60vw;
+    height: 60vh;
+
+    border-radius: 1vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.myForm .upper {
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 5vh;
+}
+
+input {
+    width: 15vw;
+    height: 5vh;
+}
+
+label {
+    font-size: 3vh;
+}
+
+.myForm button {
+    background-color: #4c6e97;
+    border: none;
+
+    width: 100%;
+    height: 7vh;
+}
+
+footer {
+    position: absolute;
+    top: 410vh;
+
+    width: 100vw;
+    height: 12vh;
+
+    background-color: #131c27;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1 {
+    position: relative;
+    left: 6vw;
+}
+
+footer .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 40vw;
+
+    position: relative;
+    right: 10vw;
+}
